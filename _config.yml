@@ -1,1 +1,27 @@
-theme: jekyll-theme-slate
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: Uiko’s Blog #网站的标题
+subtitle: 1001 #副标题
+description: 1001 #描述
+author: Pangtou #作者信息
+avatar: /images/header.jpg #头像，图片位置在相应主题目录下的images
+language: zh-Hans #中文简体
+email: 542733662@qq.com
+timezone:
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: jekyll-theme-slate #配置主题，这里使用next主题
+stylus:
+  compress: true #自适应布局
+
+# Deployment
+## Docs: https://hexo.io/docs/deployment.html
+deploy:
+  type: git #部署环境，基于hexo+githubpage,所以这里使用git。注意：不同版本的hexo，type有可能不同，3.x以后应使用git,具体参看官方文档
+  repository: git@github.com:cloveryork123/cloveryork123.github.io.git #git仓库地址，替换成你的username即可，其他保持不变，后面会提到如何创建git仓库
+  branch: master
